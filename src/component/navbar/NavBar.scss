@@ -1,0 +1,28 @@
+// NavBar.scss
+.navbar {
+  background-color: #538dc7;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(215, 146, 146, 0.1);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #3498db;
+  }
+}
