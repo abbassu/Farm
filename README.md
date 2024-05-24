@@ -4,7 +4,7 @@
 
 ## Overview
 
-Farm Project is a web application designed to help farm owners manage their finances. The application allows users to calculate all money coming in and going out of the farm. Built with Node.js, Express, React, HTML, and CSS, this application provides a user-friendly interface for financial management in the agricultural sector.
+Farm Project is a web application designed to help farm owners manage their finances. The application allows users to calculate all incoming funds, profits and expenses from the farm. Built using Node.js, Express, React, HTML and CSS, this application provides an easy-to-use interface for financial management in the agricultural sector.
 
 ## Features
 
