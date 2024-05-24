@@ -20,31 +20,29 @@ Farm Project is a web application designed to help farm owners manage their fina
 
 The home page provides an overview of the application, with quick links to various sections. It also displays recent income and expense entries.
 
-![Home Page](https://example.com/path/to/your/image.jpg)  <!-- Replace with actual image link -->
+![Home Page](public/screencapture-localhost-3000-2024-05-24-14_20_49.png)  <!-- Replace with actual image link -->
 
-### 2. Income Page
+### 2. Client Information Page
 
-On the income page, users can add new income sources and view a list of all recorded income.
+On the Client Information Page, users can view all the customer's financial data
 
-![Income Page](https://example.com/path/to/your/image.jpg)  <!-- Replace with actual image link -->
+![Income Page](public/screencapture-localhost-3000-clientInformation-2024-05-24-14_21_56.png)  <!-- Replace with actual image link -->
 
-### 3. Expenses Page
+### 3. New Order Page
 
-The expenses page allows users to record new expenses and view all past expenses.
+The New Order Page allows users to record new Order for Client
 
-![Expenses Page](https://example.com/path/to/your/image.jpg)  <!-- Replace with actual image link -->
+![New Order Page](public/screencapture-localhost-3000-neworder-2024-05-24-14_22_21.png)  <!-- Replace with actual image link -->
 
-### 4. Financial Summary Page
+### 4. New Client Page
 
-The financial summary page gives users a detailed overview of their farm's financial status, including total income, total expenses, and net profit.
+The New Client page allows users to record new clients in Database.
 
-![Summary Page](https://example.com/path/to/your/image.jpg)  <!-- Replace with actual image link -->
+![New Client Page](public/screencapture-localhost-3000-neworder-2024-05-24-14_22_21.png)  <!-- Replace with actual image link -->
 
-### 5. User Profile Page
+![After adding Client] (public/screencapture-localhost-3000-neworder-2024-05-24-14_22_29.png)
 
-The user profile page allows users to manage their account information and view personalized statistics.
 
-![Profile Page](https://example.com/path/to/your/image.jpg)  <!-- Replace with actual image link -->
 
 ## Installation
 
