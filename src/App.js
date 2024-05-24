@@ -6,23 +6,26 @@ import HomePage from "./pages/homePage/homePage";
 import NewClient from "./pages/newClient/NewClient";
 import NewOrder from "./pages/newOrder/NewOrder";
 import Layout from "./pages/layout/Layout";
+import { PopupCustomerProvider } from "./allcontext/allcontext";
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="clientInformation" element={<ClientPage />} />
-            <Route path="neworder" element={<NewOrder />} />
-            <Route path="newclient" element={<NewClient />} />
+    <PopupCustomerProvider>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<HomePage />} />
+              <Route path="clientInformation" element={<ClientPage />} />
+              <Route path="neworder" element={<NewOrder />} />
+              <Route path="newclient" element={<NewClient />} />
 
-            {/* <Route path="contact" element={<Contact />} /> */}
-            {/* <Route path="*" element={<NoPage />} /> */}
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+              {/* <Route path="contact" element={<Contact />} /> */}
+              {/* <Route path="*" element={<NoPage />} /> */}
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </PopupCustomerProvider>
   );
 }
 

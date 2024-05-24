@@ -1,0 +1,15 @@
+.allDate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  input {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 4px 8px;
+  }
+  p {
+    font-size: 20px;
+  }
+}

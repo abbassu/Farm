@@ -10,11 +10,12 @@ const NavBar = () => {
         <li className="nav-item">
           <Link to="/">الصفحة الرئيسية </Link>
         </li>
-        <li className="nav-item">
-          <Link to="/neworder">طلبية جديدة</Link>
-        </li>
+
         <li className="nav-item">
           <Link to="/clientInformation">كشف زبون</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/neworder">طلبية جديدة</Link>
         </li>
         <li className="nav-item">
           <Link to="/newclient">زبون جديد</Link>

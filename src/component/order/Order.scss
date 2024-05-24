@@ -4,20 +4,21 @@
   align-items: center;
   justify-content: center;
   .order {
-    border: 2px rgb(195, 195, 26) solid;
+    border: 2px rgb(52, 52, 50) solid;
     border-radius: 8px;
     padding: 12px;
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
     h2 {
-      border: 2px rgb(32, 100, 203) solid;
+      background-color: rgb(76, 132, 215);
+      color: white;
       margin-bottom: 20px;
       padding: 4px 4px;
       border-radius: 4px;
     }
 
     .fieldOrder {
-      // min-width: 220px;
       display: flex;
       flex-direction: row-reverse;
       font-size: 20px;
@@ -32,9 +33,20 @@
         text-align: center;
       }
       .valueOf {
+        padding: 4px 8px;
+        background-color: rgb(233, 233, 142);
         font-weight: bold;
         min-width: 130px;
         text-align: center;
+        display: flex;
+        div {
+          width: 65px;
+          padding: 2px;
+          flex-direction: row-reverse;
+        }
+      }
+      .andoff {
+        justify-content: center;
       }
     }
   }

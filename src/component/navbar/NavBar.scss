@@ -11,18 +11,26 @@
   margin: 0;
   display: flex;
   justify-content: center;
+  gap: 20px;
+  .nav-item {
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
 }
 
 a {
   text-decoration: none;
-  margin-right: 20px;
+
   color: #fff;
   font-size: 1.2rem;
   text-decoration: none;
   cursor: pointer;
   transition: color 0.3s ease;
+  font-weight: bold;
 
   &:hover {
-    color: #3498db;
+    color: #16232c;
   }
 }

@@ -15,4 +15,25 @@
     border: 3px solid rgb(10, 109, 222);
     border-radius: 8px;
   }
+  .popup {
+    transition: 0.3s ease-in;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: rgb(30, 210, 30);
+  }
+
+  .trueReq {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(30, 210, 30);
+  }
+  .falseReq {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(204, 62, 62);
+  }
 }
